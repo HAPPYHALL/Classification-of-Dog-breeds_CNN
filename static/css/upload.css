@@ -1,0 +1,111 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color : #F2F2F2;
+}
+
+#main {
+    padding-top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color : #F2F2F2;    
+}
+
+#header {
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    height: 600px;
+    border: 6px solid #262626;
+    border-radius: 5%;
+    margin-bottom: 3%;
+}
+#header img {
+    align-items: center;
+    width: 100%;
+    height: 590px;
+    border-radius: 5%;
+}
+#header .content{
+    outline: 2px dashed #92b0b3 ;
+    outline-offset:-10px;  
+    text-align: center;
+    transition: all .15s ease-in-out;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
+
+#body{
+    display : table-cell;
+    vertical-align : middle;
+    padding-bottom: 30%;
+}
+
+#body p{
+    background-color : #F2CD5C;
+    position: relative;
+    display: inline-block;
+
+    margin-top: 3%;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    border: 6px solid #262626;
+    border-radius: 5%;
+
+    color: #262626;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+}
+#body pre{
+    position: relative;
+    display: inline-block;
+
+    margin-top: 3%;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    border: 6px solid #262626;
+    border-radius: 5%;
+
+    color: #262626;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 120%;
+}
+
+#body .custom-btn{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 10%;
+    border: 6px solid #262626;
+    border-radius: 10%;
+
+    color: #fff;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+#body .btn-1 {
+    background: #F2B544;
+    background: linear-gradient(0deg, #f0a926 0%, #f09e06 100%);
+}
+#body .btn-1:hover {
+    background: #F2B544;
+    background: linear-gradient(0deg, #f09e06 0%, #f7e47d 100%);
+}
