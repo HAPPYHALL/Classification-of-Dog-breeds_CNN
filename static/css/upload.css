@@ -4,88 +4,44 @@
 
 body {
     max-width: 720px;
+    max-height: 2000px;
+
     margin: 0 auto;
     background-color : #F2F2F2;
 }
 
 #main {
-    padding-top: 15%;
-    width: 100%;
+    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAxNzEwMjdfMjgx/MDAxNTA5MTAzNjMxNDQ1.JDC7Ti3QX46TeOTgVEv0pv98kqeWjLAdKGuu79a6Lncg.6EUmvZZtsf5XdonHT9EdixWNiRLA4od9m8CqSoBsMKcg.PNG.23yeon0726/%ED%9D%B0%EB%91%A58.png?type=w2');
+    padding: 15% 0% 70% 10%;
+    max-width: 720px;
+    max-height: 2000px;
     height: 100%;
-    background-color : #F2F2F2;    
+    width: 100%;
+    background-color : #F2F2F2;
 }
 
 #header {
     align-items: center;
-    width: 100%;
+    width: 90%;
     max-width: 720px;
-    height: 600px;
-    border: 6px solid #262626;
+    height: 500px;
+    border: 6px solid #0D0D0D;
     border-radius: 5%;
-    margin-bottom: 3%;
+    opacity: 0.8;
 }
-#header img {
-    align-items: center;
-    width: 100%;
-    height: 590px;
-    border-radius: 5%;
-}
-#header .content{
-    outline: 2px dashed #92b0b3 ;
-    outline-offset:-10px;  
-    text-align: center;
-    transition: all .15s ease-in-out;
-    width: 300px;
-    height: 300px;
-    background-color: gray;
-}
-
-#body{
-    display : table-cell;
-    vertical-align : middle;
-    padding-bottom: 30%;
-}
-
-#body p{
-    background-color : #F2CD5C;
-    position: relative;
-    display: inline-block;
-
-    margin-top: 3%;
-    align-items: center;
-    width: 100%;
-    max-width: 720px;
-    border: 6px solid #262626;
-    border-radius: 5%;
-
-    color: #262626;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-size: 150%;
-}
-#body pre{
-    position: relative;
-    display: inline-block;
-
-    margin-top: 3%;
-    align-items: center;
-    width: 100%;
-    max-width: 720px;
-    border: 6px solid #262626;
-    border-radius: 5%;
-
-    color: #262626;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-size: 120%;
+#header h1 {
+    margin-top: 35%;
+    margin-left: 20%;
+    font-size: 250%;
+    opacity: 10;
 }
 
 #body .custom-btn{
     margin-top: 3%;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 7%;
+    width: 75%;
     height: 10%;
-    border: 6px solid #262626;
+    border: 6px solid #0D0D0D;
     border-radius: 10%;
 
     color: #fff;
@@ -106,6 +62,6 @@ body {
     background: linear-gradient(0deg, #f0a926 0%, #f09e06 100%);
 }
 #body .btn-1:hover {
-    background: #F2B544;
-    background: linear-gradient(0deg, #f09e06 0%, #f7e47d 100%);
+    background: #f08b66;
+    background: linear-gradient(0deg, #f08b66 0%, #f0b7a2 100%);
 }
