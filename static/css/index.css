@@ -12,7 +12,7 @@ body {
 
 #main {
     background-image: url('https://mblogthumb-phinf.pstatic.net/MjAxNzEwMjdfMjgx/MDAxNTA5MTAzNjMxNDQ1.JDC7Ti3QX46TeOTgVEv0pv98kqeWjLAdKGuu79a6Lncg.6EUmvZZtsf5XdonHT9EdixWNiRLA4od9m8CqSoBsMKcg.PNG.23yeon0726/%ED%9D%B0%EB%91%A58.png?type=w2');
-    padding: 15% 0% 70% 10%;
+    padding: 15% 0% 85% 10%;
     max-width: 720px;
     max-height: 2000px;
     height: 100%;
@@ -31,8 +31,8 @@ body {
 }
 #header h1 {
     margin-top: 35%;
-    margin-left: 15%;
-    font-size: 250%;
+    margin-left: 13%;
+    font-size: 245%;
     opacity: 10;
 }
 
